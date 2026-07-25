@@ -87,7 +87,8 @@ export default async function handler(request, response) {
         model: process.env.OPENAI_MODEL || "gpt-5-mini",
         instructions: `${instructions}\n\nPUBLIC KNOWLEDGE BASE:\n${knowledge}`,
         input: question,
-        max_output_tokens: 400,
+        reasoning: { effort: "minimal" },
+        max_output_tokens: 700,
         text: { verbosity: "low" }
       })
     });
