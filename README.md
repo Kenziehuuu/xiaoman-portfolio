@@ -27,3 +27,15 @@ Then open `http://localhost:8000`.
   boundaries.
 - The current Ask interaction is a small local preview. It demonstrates the
   intended personal and professional answer scope without making API calls.
+# Xiaoman Portfolio
+
+Static portfolio with a Vercel serverless AI-twin endpoint.
+
+## Environment variables
+
+Configure these in Vercel Project Settings:
+
+- `OPENAI_API_KEY` — required and server-side only
+- `OPENAI_MODEL` — optional; defaults to `gpt-5-mini`
+
+Never expose the API key in browser code or commit it to the repository.

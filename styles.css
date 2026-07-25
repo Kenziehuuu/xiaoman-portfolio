@@ -232,6 +232,13 @@ dd { margin: 0; line-height: 1.55; }
 .chat-preview input::placeholder { color: rgba(243,240,231,.65); }
 .chat-preview button { border: 0; background: transparent; color: inherit; font-size: 26px; cursor: pointer; }
 .preview-response { font-size: 13px; opacity: .8; min-height: 6em; line-height: 1.6; }
+.preview-response.is-loading { animation: response-pulse 1.2s ease-in-out infinite; }
+.chat-preview input:disabled,
+.chat-preview button:disabled { cursor: wait; opacity: .55; }
+@keyframes response-pulse {
+  0%, 100% { opacity: .45; }
+  50% { opacity: .9; }
+}
 
 .contact { background: #f6f4ee; display: grid; place-items: center; text-align: center; }
 .contact-inner { display: flex; flex-direction: column; gap: 14px; }
