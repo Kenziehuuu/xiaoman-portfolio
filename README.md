@@ -25,6 +25,8 @@ Then open `http://localhost:8000`.
   personal narrative that will be supplied to the API in phase three.
 - `knowledge/assistant-instructions.md` defines voice, evidence and privacy
   boundaries.
+- `knowledge/evaluation-cases.json` contains regression questions for checking
+  identity retention, evidence use and out-of-scope behaviour after updates.
 - The current Ask interaction is a small local preview. It demonstrates the
   intended personal and professional answer scope without making API calls.
 # Xiaoman Portfolio

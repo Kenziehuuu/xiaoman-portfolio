@@ -72,6 +72,108 @@
     "meaningful_work": "She wants technology and business work to create genuine usefulness, broaden access to knowledge or help people make better decisions.",
     "women_in_technology": "Her early experience of gender imbalance in technology made female leadership, representation and access to technical knowledge personally important to her."
   },
+  "ai_worldview_and_product_role": {
+    "origins": {
+      "facts": [
+        "Xiaoman has been deeply drawn to mathematics and logic since childhood.",
+        "Her graduate studies in Data Science and Business Analytics introduced her to the mechanisms behind AI and large language models, including probabilistic language generation, iterative validation and optimisation.",
+        "She is impressed by the way mathematical and scientific mechanisms can develop into tools that become part of everyday life."
+      ],
+      "meaning": "Her interest in AI grows from a long-standing trust in logic, patterns and explainable mechanisms rather than from technology trend-following alone."
+    },
+    "complementary_sensibilities": {
+      "facts": [
+        "She is highly sensitive to aesthetics, thought, emotion and the way people experience an idea.",
+        "She has a naturally divergent and creative thinking style and often finds herself continuously exploring questions and possible connections.",
+        "These qualities supported her earlier work in marketing, project development and personal content creation."
+      ],
+      "meaning": "She sees analytical structure and human sensitivity as complementary abilities."
+    },
+    "role_at_the_intersection": {
+      "statement": "Xiaoman sees her strongest role at the intersections between marketing and technology, users and technology, and creative observation and product execution.",
+      "purpose": "She wants to connect different disciplines, translate technical capability into understandable human value, and create products or applications that extend what a technology can meaningfully do."
+    },
+    "position_on_ai": {
+      "beliefs": [
+        "She does not believe that simply resisting AI is a sustainable response because it is part of a broader technological development that cannot be ignored.",
+        "The more valuable direction is to learn how to use AI well, establish appropriate norms and boundaries, and discover applications in which it serves people more effectively.",
+        "People and organisations need to adapt as their environment and available tools change, while remaining thoughtful about why and how those tools are used."
+      ],
+      "working_principle": "As a project manager and AI product builder, she aims to combine new tools with personal observation and independent thinking, then turn that combination into useful and responsible product applications."
+    }
+  },
+  "professional_identity_and_integration": {
+    "current_core_direction": {
+      "fact": "Xiaoman currently describes her main professional direction as data-science-related work.",
+      "qualification": "Because she is still early in her post-graduate career, she expects the precise specialisation to evolve through further learning and experience rather than treating the current label as permanent."
+    },
+    "parallel_practices": {
+      "fact": "Modelling and personal content creation are meaningful long-term practices outside her main professional line, not substitute career labels.",
+      "belief": "People are not flat, single-role individuals; having several developed sides does not make a person's core direction incoherent."
+    },
+    "causal_connections": [
+      "Her first fashion-technology internship inspired her to start her own creator account after she gained experience producing social content for the company.",
+      "The same internship exposed her to a technology-heavy workplace and showed her how strongly data and technical capability support promotion, product decisions and wider business decisions, contributing to her decision to study Data Science and Business Analytics.",
+      "In Clearstream data product project management, she combined technical understanding and communication with IT and data specialists, product launch, user adoption, client presentations and internal product communication.",
+      "A department leader noticed her creativity, visual judgement and presentation ideas and invited her to contribute to a company website redesign initiative, where she gained experience with Figma and design collaboration."
+    ],
+    "integrating_principle": "When an idea becomes a real product, technical knowledge alone is not enough. Xiaoman believes it also requires commercial understanding, aesthetics, communication, emotional sensitivity and an ability to connect with the different people the product will ultimately serve.",
+    "tradeoff_of_multidimensionality": {
+      "benefit": "Experience in several directions gives Xiaoman room to experiment, accumulate transferable abilities and contribute to roles or responsibilities located between established disciplines.",
+      "cost": "Because time and energy are finite, exploring several credible directions can make the eventual choice of where to concentrate more difficult.",
+      "long_term_belief": "Xiaoman believes that meaningful long-term development usually requires sustained depth in a more specific direction. Across research, companies and individual careers, progress often comes from repeated effort around a focused point before that contribution expands the wider field.",
+      "current_challenge": "The challenge is deciding when to reduce exploration, change the allocation of attention and place most future effort behind one direction. Having more viable options requires stronger personal judgment, and choosing one also means accepting that the same time cannot be invested elsewhere."
+    },
+    "long_term_commitment_signals": {
+      "relative_ease_and_aptitude": "Xiaoman pays attention to whether she can understand, perform or grow in a direction with greater ease than the average person. She sees this as a possible signal of natural aptitude or the accumulated effect of earlier experience.",
+      "observable_growth": "When effort produces visible progress and results, she treats that feedback as evidence that a direction may deserve deeper long-term investment.",
+      "timing_and_conditions": "She has some belief in fate or timing, expressed as respect for the way external conditions, social context and opportunity can affect whether a path is viable now.",
+      "response_to_poor_feedback": "If sustained effort brings consistently weak objective results or the path remains difficult for both internal and external reasons, she is willing to adjust or change rather than preserve the plan through willpower alone.",
+      "principle": "She does not equate changing direction with personal failure. Human motivation depends partly on feedback, and a poor result may mean that the timing, method or direction needs to change rather than that more stubborn effort is automatically virtuous."
+    }
+  },
+  "social_and_working_style": {
+    "first_impression": "In many settings, people may initially experience Xiaoman as serious.",
+    "context_switching": "Her visible state changes with the setting. She consciously or naturally shifts between work, social and close-friend modes rather than expressing one fixed level of formality everywhere.",
+    "task_orientation": "In work or task-focused situations, she directs most of her attention toward what the group is currently trying to accomplish and gives less attention to personal emotion or relationship management in that moment.",
+    "close_relationships": "With close friends, she can relax fully and speak much more casually and freely.",
+    "interpretation": "What can look like seriousness is often concentration and result orientation rather than distance or a lack of feeling.",
+    "conditions_for_relaxation": {
+      "environment": "Xiaoman relaxes most in an environment that feels physically safe and comfortable.",
+      "people": "Trust, reassurance and a sense of being understood by the people around her matter more than a particular leisure activity.",
+      "psychological_condition": "She feels genuinely at ease when the environment is accepting enough that she does not need to monitor her behaviour, anticipate something going wrong, produce a result or prove herself.",
+      "reflection": "She notices that many everyday actions are partly shaped by a desire for external feedback or proof. Genuine relaxation begins when that demand temporarily disappears."
+    }
+  },
+  "mentorship_and_healthy_work_environment": {
+    "person": {
+      "name": "Micah",
+      "relationship": "Micah was Xiaoman's manager during her first internship at Clearstream and had a major influence on how she understands work, leadership and a healthy professional environment."
+    },
+    "defining_example": {
+      "situation": "Micah once asked Xiaoman to build a small Excel application. Xiaoman could not complete it, felt intense pressure and apologised at the end of the working day.",
+      "response": "Micah responded calmly and without blame. She made it clear that not knowing how to do something for the first time, and making mistakes while learning, were acceptable; she took over that instance rather than turning it into a judgment of Xiaoman's ability.",
+      "meaning": "For Xiaoman, this was an early concrete experience of psychological safety at work. Patience, respect and support did not reduce standards; they made learning, initiative and stronger work possible."
+    },
+    "impact_on_work": [
+      "Micah's encouragement gave Xiaoman enough safety to move beyond simply completing assigned work and begin proposing her own ideas.",
+      "Micah noticed Xiaoman's strengths, gave her space to experiment and connected her with opportunities where her creativity, communication and product instincts could become useful results.",
+      "Several projects Xiaoman later felt proud of were possible because she received both trust and room to try, rather than being expected to prove competence before being given an opportunity.",
+      "The experience reshaped Xiaoman's expectations of management: healthy interpersonal dynamics can materially improve confidence, initiative, output and the quality of work."
+    ],
+    "female_role_models_and_technology": {
+      "background": "One reason Xiaoman moved from marketing toward Data Science was that the technical team in her earlier consumer-technology internship was almost entirely male, even though many products and marketing decisions targeted women. She wanted women to participate in the technical and decision-making side of those systems rather than only being their audience.",
+      "clearstream_experience": "At Clearstream, Micah and the leader of the Data Client Connectivity department were accomplished women. Xiaoman experienced them not as abstract symbols, but as close professional examples of technically informed, attentive and influential female leadership.",
+      "women_at_dbg": "Together with Women at DBG, the team organised training and engagement activities around AI and technology, including knowledge sessions, interactive elements and small gifts intended to make technical subjects more approachable.",
+      "personal_meaning": "This period felt like a promise in Xiaoman's graduate application becoming real: she was helping design and shape products rather than only promoting them, gaining influence in technical work, and contributing to initiatives that encouraged more women to understand and enter technology."
+    },
+    "lasting_values": [
+      "A good manager creates the conditions in which people can learn before they are perfect.",
+      "Psychological safety and high-quality work reinforce each other when trust is paired with real opportunities and responsibility.",
+      "Xiaoman wants a working environment where respect, patience and human understanding are part of how results are produced, not benefits added after the work is done.",
+      "Female representation matters most to her when women also have technical understanding, decision-making power and the ability to create opportunities for others."
+    ]
+  },
   "professional_evidence": {
     "clearstream": [
       "Delivered three Power BI dashboards for different business departments.",
