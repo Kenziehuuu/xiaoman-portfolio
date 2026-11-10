@@ -231,8 +231,40 @@ dd { margin: 0; line-height: 1.55; }
 }
 .chat-preview input::placeholder { color: rgba(243,240,231,.65); }
 .chat-preview button { border: 0; background: transparent; color: inherit; font-size: 26px; cursor: pointer; }
-.preview-response { font-size: 13px; opacity: .8; min-height: 6em; line-height: 1.6; }
-.preview-response.is-loading { animation: response-pulse 1.2s ease-in-out infinite; }
+.conversation {
+  max-width: 620px;
+  max-height: 430px;
+  min-height: 7em;
+  margin-top: 22px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(243,240,231,.4) transparent;
+}
+.conversation-empty { margin: 0; font-size: 13px; opacity: .65; }
+.conversation-message { margin: 0 0 22px; font-size: 13px; line-height: 1.7; white-space: pre-wrap; }
+.conversation-message::before {
+  display: block;
+  margin-bottom: 4px;
+  font: 9px var(--mono);
+  letter-spacing: .08em;
+  opacity: .55;
+}
+.conversation-message--user { margin-left: 12%; opacity: .72; }
+.conversation-message--user::before { content: "YOU"; }
+.conversation-message--assistant::before { content: "XIAOMAN / AI"; }
+.conversation-message--error { opacity: .72; }
+.conversation-message--error::before { content: "SYSTEM"; }
+.conversation-message.is-loading { animation: response-pulse 1.2s ease-in-out infinite; }
+.conversation-reset {
+  display: block;
+  margin-top: 12px;
+  padding: 0 !important;
+  font: 9px var(--mono) !important;
+  letter-spacing: .08em;
+  opacity: .55;
+}
+.conversation-reset:hover,
+.conversation-reset:focus-visible { opacity: 1; outline: none; }
 .chat-preview input:disabled,
 .chat-preview button:disabled { cursor: wait; opacity: .55; }
 @keyframes response-pulse {

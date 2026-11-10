@@ -31,6 +31,11 @@ Then open `http://localhost:8000`.
 
 Static portfolio with a Vercel serverless AI-twin endpoint.
 
+The AI twin uses a structured public knowledge base, a personality contract,
+bilingual dialogue examples and a limited multi-turn conversation history.
+Conversation history is held in the visitor's browser session and sent only for
+the current response; the site does not maintain a permanent visitor profile.
+
 ## Environment variables
 
 Configure these in Vercel Project Settings:

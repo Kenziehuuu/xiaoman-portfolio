@@ -9,6 +9,10 @@ const knowledge = readFileSync(
   join(process.cwd(), "knowledge", "knowledge-base.json"),
   "utf8"
 );
+const dialogueExamples = readFileSync(
+  join(process.cwd(), "knowledge", "dialogue-examples.md"),
+  "utf8"
+);
 
 const windows = new Map();
 const WINDOW_MS = 60_000;
@@ -46,6 +50,31 @@ function extractText(response) {
     .trim();
 }
 
+function safeHistory(value) {
+  if (!Array.isArray(value)) return [];
+
+  let characterCount = 0;
+  return value
+    .slice(-10)
+    .filter((message) => {
+      if (
+        !message ||
+        !["user", "assistant"].includes(message.role) ||
+        typeof message.content !== "string"
+      ) {
+        return false;
+      }
+
+      const length = message.content.trim().length;
+      characterCount += length;
+      return length > 0 && length <= 1600 && characterCount <= 8000;
+    })
+    .map((message) => ({
+      role: message.role,
+      content: message.content.trim()
+    }));
+}
+
 export default async function handler(request, response) {
   if (request.method !== "POST") {
     response.setHeader("Allow", "POST");
@@ -69,6 +98,7 @@ export default async function handler(request, response) {
     typeof request.body?.question === "string"
       ? request.body.question.trim()
       : "";
+  const history = safeHistory(request.body?.history);
 
   if (!question || question.length > 500) {
     return response.status(400).json({
@@ -85,11 +115,12 @@ export default async function handler(request, response) {
       },
       body: JSON.stringify({
         model: process.env.OPENAI_MODEL || "gpt-5-mini",
-        instructions: `${instructions}\n\nPUBLIC KNOWLEDGE BASE:\n${knowledge}`,
-        input: question,
-        reasoning: { effort: "minimal" },
-        max_output_tokens: 700,
-        text: { verbosity: "low" }
+        instructions: `${instructions}\n\n${dialogueExamples}\n\nPUBLIC KNOWLEDGE BASE:\n${knowledge}`,
+        input: [...history, { role: "user", content: question }],
+        reasoning: { effort: "low" },
+        max_output_tokens: 1000,
+        text: { verbosity: "medium" },
+        store: false
       })
     });
 

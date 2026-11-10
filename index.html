@@ -187,7 +187,7 @@
         <div class="chat-preview reveal">
           <p class="chat-label">[ AI TWIN / LIVE ]</p>
           <p>Hi.<br>I'm Xiaoman's AI twin.</p>
-          <p>Ask me about her work, projects, skills or creative life.</p>
+          <p>Ask about my work or my life—or stay for a real conversation.</p>
           <div class="question-prompts" aria-label="Example questions">
             <button type="button" data-question="Why did Xiaoman come to France?">WHY FRANCE?</button>
             <button type="button" data-question="What kind of person is Xiaoman?">WHO IS SHE?</button>
@@ -199,7 +199,10 @@
             <input id="question" name="question" maxlength="500" placeholder="Ask something…" autocomplete="off">
             <button type="submit" aria-label="Send question">→</button>
           </form>
-          <p class="preview-response" id="preview-response" aria-live="polite">Choose a question or ask your own.</p>
+          <div class="conversation" id="conversation" aria-live="polite">
+            <p class="conversation-empty">Choose a question or ask your own.</p>
+          </div>
+          <button class="conversation-reset" id="conversation-reset" type="button">NEW CONVERSATION</button>
         </div>
       </div>
     </section>
