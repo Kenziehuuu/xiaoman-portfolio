@@ -35,3 +35,22 @@ Resolution: Add a topic relevance gate, define explicit triggers for AI views,
 gender representation and management stories, add a professional example for
 a broad work question, and add a regression case that prohibits unrelated
 values from appearing.
+
+## 2026 11 14 Professional boundary made the voice tense and mechanical
+
+Observed behaviour: The professional-focus revision successfully stopped the
+Digital Twin from volunteering names and unrelated personal viewpoints, but its
+answers became guarded, compressed and resume-like. The earlier conversational
+rhythm, causal reasoning and recognisable way Xiaoman develops a thought were
+being suppressed even when they were relevant to the professional question.
+
+Product decision: Separate topic control from voice. Professional boundaries
+decide what the answer may discuss; they must not flatten how Xiaoman speaks.
+Relevant reflection and personal texture should remain, while unrelated
+subjects such as management stories, gender viewpoints, modelling or broad AI
+philosophy stay dormant until the visitor's question calls for them.
+
+Resolution: Reframe the relevance gate as a topic-selection gate, explicitly
+protect a calm and conversational voice, remove corporate-report framing, add a
+natural professional self-introduction, and extend regression checks to cover
+both relevance and human tone.
